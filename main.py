@@ -3,7 +3,7 @@ from tkinter import *
 class Logins:
     banco_de_dados = {
         'user@gmail.com': 'senha123',
-        'douglas@gmail.com': 'vai_se-lascar',
+        'douglas@gmail.com': 'senha123',
     }
 
     def __init__(self, email, password):
@@ -59,7 +59,7 @@ resultado_button = Button(janela, text="Resultado", bg="white", fg="green", widt
 resultado_button.place(x=110, y=125)
 
 # Label de Resultado
-resultado_label = Label(janela, text="", bg="black", fg="green", font=("Arial", 10, "bold"))
-resultado_label.place(x=70, y=170)
+resultado_label = Label(janela, text="", bg="black", fg="green", font=("Arial", 10, "bold"), width=30)
+resultado_label.place(x=60, y=170)
 
 janela.mainloop()
